@@ -4,7 +4,8 @@
   "description": "it is backend of expense tracker",
   "main": "server.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "sacnhit",
   "license": "ISC",
