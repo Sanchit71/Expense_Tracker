@@ -7,7 +7,7 @@
     "start": "node server",
     "server": "nodemon server"
   },
-  "author": "sacnhit",
+  "author": "sanchit",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
