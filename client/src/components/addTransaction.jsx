@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 
 
@@ -12,7 +12,7 @@ export const AddTransaction = () => {
     e.preventDefault();
 
     const newTransaction = {
-      id: Math.floor(Math.random() * 100000000),
+      // _id: Math.floor(Math.random() * 100000000),
       text,
       amount: +amount,
     };
@@ -37,7 +37,7 @@ export const AddTransaction = () => {
         <div className="form-control">
           <label htmlFor="amount">
             Amount <br />
-            (Note:- For Expense, Use <b>'−' (Minus)</b> Sign)
+            (Note:- For Expense, Use <b> &apos;−&apos; (Minus)</b> Sign)
           </label>
           <input
             type="number"
