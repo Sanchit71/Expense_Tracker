@@ -2,6 +2,15 @@
 ## Introduction
 SpendSense is a Expense Tracker site, where we transform managing expenses into a seamless and even delightful experience, helping you master your financial journey.
 
+## Tech Stack
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- HTML
+- CSS
+
+
 ## How to Use
 - Download the React.js Library and Npm Package Manager
 - Clone the Respository 
